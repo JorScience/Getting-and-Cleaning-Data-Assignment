@@ -1,7 +1,8 @@
 # Getting and Cleaning Data Assignment 
 ## run_analysis.R 
 Using the UCI HAR Dataset, which can be downloaded from the following link: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ 
 This script was written to achieve the following (not necessarily in this order): 
 1. Merge the training and the test sets to create one data set; 
 2. Extract only the measurements on the mean and standard deviation for each measurement; 
