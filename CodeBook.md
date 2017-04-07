@@ -61,4 +61,4 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 The complete list of variables of each feature vector is available in 'features.txt' 
 ## Subset features
-For the subset which was created from the entire set, only the 'mean()' and 'std()' features were used. 
+For the subset which was created from the entire set, only the `mean()` and `std()` features were used. 
