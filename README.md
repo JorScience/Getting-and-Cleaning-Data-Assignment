@@ -1,6 +1,7 @@
 # Getting and Cleaning Data Assignment 
 ## run_analysis.R 
-Using the UCI HAR Dataset, which can be downloaded from the following link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+Using the UCI HAR Dataset, which can be downloaded from the following link: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 This script was written to achieve the following (not necessarily in this order): 
 1. Merge the training and the test sets to create one data set; 
 2. Extract only the measurements on the mean and standard deviation for each measurement; 
@@ -10,7 +11,8 @@ This script was written to achieve the following (not necessarily in this order)
 Note that the script is designed to download the data for you if you do not have it stored locally yet. Hence, make sure you set your working directory before running the script. The script does use the 'data.table' package, however, which you will have to install yourself. If you do not have the package installed yet, it will throw an error. 
 ## Running the script 
 After having set your working directory (using 'setwd()'), save the script to the same directory and run it using the following code:
-```source("run_analysis.R")
+```
+source("run_analysis.R")
 ``` 
 After the script has completed running, you will have three data frames in your environment, namely `meanset`, `selectedset` and `totalset`. In addition, a tidy data set will have been stored to your working directory called 'Tidydataset.txt'. 
 ## The process 
